@@ -9,16 +9,16 @@ The model captures:
  Relationships between stocks and sectors using graph attention
 
  Return prediction for ranking profitable stocks
-
+```
  Project Structure
-'FinGAT/
+ FinGAT/
 ├── Feature_Extraction.ipynb   # Stock feature engineering
 ├── create_edge.ipynb          # Graph construction
 ├── train_new.py               # Model training script
 ├── parse_arg.py               # Argument handling
 ├── inner.npy / outer.npy      # Graph data
 ├── NIFTY50_category.csv       # Sector labels'
-
+```
  Tech Stack
 
 Python • PyTorch • NumPy • Pandas
